@@ -23,7 +23,7 @@ jobs:
   security:
     # Full commit SHA of the gate release, never a branch or tag (a moved tag would change what runs).
     # Dependabot proposes newer releases as SHA bumps, using the tag in the trailing comment.
-    uses: niazhussain/pipeline-workflows/.github/workflows/security.yml@943bfa8c8d1f10157d0f9f18485bfaf40468e178 # v2.1.1
+    uses: niazhussain/pipeline-workflows/.github/workflows/security.yml@943bfa8c8d1f10157d0f9f18485bfaf40468e178# v2.1.1
     permissions:              # upper bound for the gate's jobs
       contents: read
       actions: read           # baseline download, CodeQL, Scorecard
